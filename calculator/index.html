@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<center>
+		<input id="expression" disabled>
+		<table>
+			<tr>
+				<td><input type="button" class="button" value="С" onclick="deleteAll()"></td>
+				<td><input type="button" class="button" value="<" onclick="deleteOne()"></td>
+				<td><input type="button" class="button" value="/" onclick="input('/')"></td>
+				<td><input type="button" class="button" value="*" onclick="input('*')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="button" value="7" onclick="input('7')"></td>
+				<td><input type="button" class="button" value="8" onclick="input('8')"></td>
+				<td><input type="button" class="button" value="9" onclick="input('9')"></td>
+				<td><input type="button" class="button" value="-" onclick="input('-')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="button" value="4" onclick="input('4')"></td>
+				<td><input type="button" class="button" value="5" onclick="input('5')"></td>
+				<td><input type="button" class="button" value="6" onclick="input('6')"></td>
+				<td><input type="button" class="button" value="+" onclick="input('+')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="button" value="1" onclick="input('1')"></td>
+				<td><input type="button" class="button" value="2" onclick="input('2')"></td>
+				<td><input type="button" class="button" value="3" onclick="input('3')"></td>
+				<td rowspan="2"><input type="button" class="button" value="=" onclick="calculate()" style="height: 103px"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" class="button" value="0" onclick="input('0')" style="width: 103px"></td>
+				<td><input type="button" class="button" value="." onclick="input('.')"></td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>

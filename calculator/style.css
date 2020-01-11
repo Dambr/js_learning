@@ -1,0 +1,26 @@
+*{
+	font-size: 18pt;
+}
+body{
+	background-image: url(https://ok2web.ru/wp-content/uploads/2018/05/fon-site103.png);
+}
+table{
+	background-color: floralwhite;
+}
+input {
+	outline:none;
+	width: 50px;
+	height: 50px;
+	background-color: whitesmoke;
+	color: darkgreen;
+}
+#expression{
+	width: 201px;
+	height: 50px;
+	text-align: right;
+	margin-top: 100px;
+	border-style: solid;
+	border-color: floralwhite;
+	background-color: darkgray;
+	padding-right: 10px;
+}
